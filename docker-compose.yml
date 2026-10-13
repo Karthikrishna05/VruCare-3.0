@@ -1,0 +1,60 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: vrucare
+      POSTGRES_PASSWORD: vrucare
+      POSTGRES_DB: vrucare
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vrucare -d vrucare"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "127.0.0.1:6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  web:
+    build: .
+    image: vrucare-app
+    command: >
+      uvicorn config.asgi:application --host 0.0.0.0 --port 8000 
+      --reload --reload-dir config --reload-dir apps
+    env_file: .env
+    environment: &app-env
+      DATABASE_URL: postgres://vrucare:vrucare@db:5432/vrucare
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      WATCHFILES_FORCE_POLLING: "true"
+    volumes:
+      - .:/app
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on: &app-deps
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  worker:
+    image: vrucare-app
+    command: celery -A config worker --loglevel=info --concurrency=2
+    env_file: .env
+    environment: *app-env
+    volumes:
+      - .:/app
+    depends_on: *app-deps
+
+volumes:
+  pgdata:

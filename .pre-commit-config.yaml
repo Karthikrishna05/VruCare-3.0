@@ -1,0 +1,8 @@
+# Runs before every `git commit`. Enable once per clone with:  pre-commit install
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.8  # keep equal to ruff's version in requirements-dev.txt
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
