@@ -15,7 +15,7 @@ def test_readyz_reports_every_dependency_ok(client):
     assert response.status_code == 200
     assert response.json() == {
         "status": "ok",
-        "checks": {"database": "ok", "cache": "ok"},
+        "checks": {"database": "ok", "cache": "ok", "corpus": "ok"},
     }
 
 
@@ -27,6 +27,6 @@ def test_readyz_returns_503_and_names_failing_dependencies(client):
     assert response.status_code == 503
     assert response.json() == {
         "status": "unavailable",
-        "checks": {"database": "ok", "cache": "error:ConnectionError"},
+        "checks": {"database": "ok", "cache": "error:ConnectionError", "corpus": "ok"},
     }
     assert "secret" not in response.content.decode()

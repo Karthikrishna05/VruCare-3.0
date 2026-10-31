@@ -2,6 +2,8 @@ from django.core.cache import cache
 from django.db import connection
 from django.http import HttpResponse, JsonResponse
 
+from apps.corpus.models import Chunk
+
 
 def healthz(request):
     return HttpResponse("ok", content_type="text/plain", status=200)
@@ -19,7 +21,11 @@ def _check_cache() -> None:
         raise RuntimeError("Cache Couldn't store the recent value")
 
 
-CHECKS = {"database": _check_database, "cache": _check_cache}
+def _check_corpus() -> None:
+    Chunk.objects.count()
+
+
+CHECKS = {"database": _check_database, "cache": _check_cache, "corpus": _check_corpus}
 
 
 def readyz(request):

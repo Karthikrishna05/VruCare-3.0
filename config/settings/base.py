@@ -19,6 +19,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.postgres",
+    "apps.corpus",
+    "apps.chat",
+    "apps.evaluation",
+    "apps.agents",
 ]
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
