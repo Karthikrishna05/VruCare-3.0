@@ -1,0 +1,347 @@
+# Where every PDF in this folder came from. Committed to git (the PDFs are not).
+# Every licence was checked 31 Oct - 1 Nov 2026 (decision P27: open licences only).
+# Dates: first publication online (Crossref), or the page's "last reviewed" date
+# for web pages; when only the month is known, the 1st of that month.
+
+sources:
+  - slug: jua-urolithiasis-guideline
+    name: Japanese Urological Association guideline on urinary stones (English summary)
+    publisher: International Journal of Urology (Wiley) for the Japanese Urological Association
+    source_type: guideline
+    url: https://doi.org/10.1111/iju.70004
+    license_note: "CC BY-NC-ND 4.0. Credit: Miyazawa K et al., Int J Urol 2025;32:462-474, doi:10.1111/iju.70004. Non-commercial; quote excerpts word for word."
+    documents:
+      - file: 01-jua-2025-guideline-summary.pdf
+        title: Summary of the clinical practice guideline for the management of urinary stones, third edition
+        version_label: 3rd edition
+        publication_date: 2025-02-10
+
+  - slug: sbn-nephrolithiasis-guideline
+    name: Brazilian Society of Nephrology guideline on nephrolithiasis
+    publisher: Jornal Brasileiro de Nefrologia (Brazilian Society of Nephrology)
+    source_type: guideline
+    url: https://doi.org/10.1590/2175-8239-jbn-2024-0189en
+    license_note: "CC BY 4.0. Credit: Carvalho M et al., J Bras Nefrol 2025;47(2):e20240189, doi:10.1590/2175-8239-JBN-2024-0189en."
+    documents:
+      - file: 02-sbn-2025-brazilian-guideline.pdf
+        title: "Brazilian Guidelines on evaluation and clinical management of Nephrolithiasis: Brazilian Society of Nephrology"
+        version_label: "2025"
+        publication_date: 2025-04-01
+
+  - slug: sua-urolithiasis-guideline
+    name: Saudi Urological Association guidelines on urolithiasis
+    publisher: Urology Annals (Wolters Kluwer - Medknow)
+    source_type: guideline
+    url: https://doi.org/10.4103/ua.ua_120_23
+    license_note: "CC BY-NC-SA 4.0. Credit: Kamal W et al., Urol Ann 2024;16:1-27, doi:10.4103/ua.ua_120_23. Non-commercial; adaptations shared under the same licence."
+    documents:
+      - file: 03-sua-2024-saudi-guideline.pdf
+        title: The Saudi urological association guidelines on urolithiasis
+        version_label: "2024"
+        publication_date: 2024-01-25
+
+  - slug: urine-stone-analysis-consensus
+    name: Consensus conference on urine and stone analysis
+    publisher: Urolithiasis (Springer)
+    source_type: guideline
+    url: https://doi.org/10.1007/s00240-020-01217-3
+    license_note: "CC BY 4.0. Credit: Williams JC Jr et al., Urolithiasis 2021;49:1-16, doi:10.1007/s00240-020-01217-3."
+    documents:
+      - file: 05-urine-stone-analysis-2021.pdf
+        title: "Urine and stone analysis for the investigation of the renal stone former: a consensus conference"
+        version_label: "2021"
+        publication_date: 2020-10-13
+
+  - slug: cari-kidney-stones
+    name: CARI Guidelines on preventing recurrent kidney stones
+    publisher: Kidney International Reports (International Society of Nephrology)
+    source_type: guideline
+    url: https://doi.org/10.1016/j.ekir.2026.106346
+    license_note: "CC BY-NC 4.0. Credit: Tunnicliffe DJ et al., Kidney Int Rep 2026;11(5):106346, doi:10.1016/j.ekir.2026.106346. Non-commercial."
+    documents:
+      - file: 06-cari-2026-recurrence.pdf
+        title: "Prevention of Recurrent Kidney Stones: A CARI Guidelines Summary"
+        version_label: "2026"
+        publication_date: 2026-02-09
+
+  - slug: iau-rirs-guideline
+    name: International Alliance of Urolithiasis guideline on retrograde intrarenal surgery
+    publisher: BJU International (Wiley)
+    source_type: guideline
+    url: https://doi.org/10.1111/bju.15836
+    license_note: "CC BY-NC. Credit: Zeng G et al., BJU Int 2023;131:153-164, doi:10.1111/bju.15836. Non-commercial."
+    documents:
+      - file: 15-iau-2023-rirs-guideline.pdf
+        title: International Alliance of Urolithiasis guideline on retrograde intrarenal surgery
+        version_label: "2023"
+        publication_date: 2022-07-12
+
+  - slug: iau-mini-pcnl-consensus
+    name: International Alliance of Urolithiasis consensus on mini-PCNL
+    publisher: Military Medical Research (BioMed Central)
+    source_type: guideline
+    url: https://doi.org/10.1186/s40779-024-00562-3
+    license_note: "CC BY 4.0. Credit: Zeng GH et al., Mil Med Res 2024;11:70, doi:10.1186/s40779-024-00562-3."
+    documents:
+      - file: 16-iau-2024-mini-pcnl.pdf
+        title: International Alliance of Urolithiasis (IAU) consensus on miniaturized percutaneous nephrolithotomy
+        version_label: "2024"
+        publication_date: 2024-10-28
+
+  - slug: paediatric-urolithiasis-consensus
+    name: Consensus statement on paediatric urolithiasis
+    publisher: World Journal of Urology (Springer)
+    source_type: guideline
+    url: https://doi.org/10.1007/s00345-024-05161-4
+    license_note: "CC BY 4.0. Credit: Güven S et al., World J Urol 2024;42:473, doi:10.1007/s00345-024-05161-4."
+    documents:
+      - file: 30-paediatric-consensus-2024.pdf
+        title: Consensus statement addressing controversies and guidelines on pediatric urolithiasis
+        version_label: "2024"
+        publication_date: 2024-08-07
+
+  # --- Reviews, textbook chapters and trial reports ---
+  - slug: rru-akram-somani
+    name: "Akram and Somani: kidney stone epidemiology and management"
+    publisher: Research and Reports in Urology (Dove Medical Press)
+    source_type: review
+    url: https://doi.org/10.2147/RRU.S517758
+    license_note: "CC BY-NC 4.0. Credit: Akram M, Somani B, Res Rep Urol 2025;17:449-459, doi:10.2147/RRU.S517758. Non-commercial."
+    documents:
+      - file: 07-akram-somani-2025.pdf
+        title: Epidemiology and Management of Kidney Stone Disease - Current Insights
+        version_label: "2025"
+        publication_date: 2025-11-20
+
+  - slug: endotext-nephrolithiasis
+    name: Endotext chapter on nephrolithiasis
+    publisher: MDText.com / Endotext (NCBI Bookshelf)
+    source_type: review
+    url: https://www.ncbi.nlm.nih.gov/books/NBK279069/
+    license_note: "CC BY-NC-ND 2.0. Credit: Maalouf NM, Nephrolithiasis, Endotext, MDText.com, NCBI Bookshelf NBK279069. Non-commercial; quote excerpts word for word."
+    documents:
+      - file: 08-endotext-2026-nephrolithiasis.pdf
+        title: Nephrolithiasis (Endotext)
+        version_label: updated 6 Feb 2026
+        publication_date: 2026-02-06
+
+  - slug: healthcare-stone-epidemiology
+    name: "Stamatelou and Goldfarb: epidemiology of kidney stones"
+    publisher: Healthcare (MDPI)
+    source_type: review
+    url: https://doi.org/10.3390/healthcare11030424
+    license_note: "CC BY 4.0. Credit: Stamatelou K, Goldfarb DS, Healthcare 2023;11:424, doi:10.3390/healthcare11030424."
+    documents:
+      - file: 09-stamatelou-2023-epidemiology.pdf
+        title: Epidemiology of Kidney Stones
+        version_label: "2023"
+        publication_date: 2023-02-02
+
+  - slug: ajkd-core-curriculum
+    name: AJKD Core Curriculum on kidney stones
+    publisher: American Journal of Kidney Diseases (National Kidney Foundation)
+    source_type: review
+    url: https://doi.org/10.1053/j.ajkd.2023.03.017
+    license_note: "US Government Work (public domain in the US); text only, some images are third-party. Credit: Shastri S et al., Am J Kidney Dis 2023;82(5):617-634, doi:10.1053/j.ajkd.2023.03.017."
+    documents:
+      - file: 10-ajkd-2023-core-curriculum.pdf
+        title: "Kidney Stone Pathophysiology, Evaluation and Management: Core Curriculum 2023"
+        version_label: "2023"
+        publication_date: 2023-11-01
+
+  - slug: bjui-compass-opioids
+    name: Opioids for renal colic (review)
+    publisher: BJUI Compass (Wiley)
+    source_type: review
+    url: https://doi.org/10.1002/bco2.70038
+    license_note: "CC BY. Credit: Krieger A et al., BJUI Compass 2025;6:e70038, doi:10.1002/bco2.70038."
+    documents:
+      - file: 12-opioids-renal-colic-2025.pdf
+        title: Questionable role of opioids for analgesia in renal colic and its urological interventions
+        version_label: "2025"
+        publication_date: 2025-06-11
+
+  - slug: aju-met-meta-analysis
+    name: Medical expulsive therapy meta-analysis
+    publisher: Arab Journal of Urology
+    source_type: review
+    url: https://doi.org/10.1016/j.aju.2017.03.005
+    license_note: "CC BY-NC-ND 4.0. Credit: Amer T et al., Arab J Urol 2017;15:83-93, doi:10.1016/j.aju.2017.03.005. Non-commercial; quote excerpts word for word."
+    documents:
+      - file: 13-met-meta-analysis-2017.pdf
+        title: "Medical expulsive therapy for ureteric stones: Analysing the evidence from systematic reviews and meta-analysis of powered double-blinded randomised controlled trials"
+        version_label: "2017"
+        publication_date: 2017-06-01
+
+  - slug: jcm-urosepsis-decompression
+    name: Decompression timing in obstructive urosepsis (systematic review)
+    publisher: Journal of Clinical Medicine (MDPI)
+    source_type: review
+    url: https://doi.org/10.3390/jcm14238546
+    license_note: "CC BY 4.0. Credit: Benea A et al., J Clin Med 2025;14:8546, doi:10.3390/jcm14238546."
+    documents:
+      - file: 14-urosepsis-decompression-2025.pdf
+        title: "Time to Decompression in Obstructive Urosepsis from Ureteral Calculi: Thresholds, Initial Diversion, and Early Biomarkers: A Systematic Review"
+        version_label: "2025"
+        publication_date: 2025-12-02
+
+  - slug: nihr-pure-trials
+    name: PUrE randomised trials for lower pole stones
+    publisher: NIHR Journals Library (Health Technology Assessment)
+    source_type: review
+    url: https://doi.org/10.3310/WFRE6844
+    license_note: "CC BY 4.0. Credit: Wiseman O et al., Health Technol Assess 2025;29(40), NIHR Journals Library, doi:10.3310/WFRE6844."
+    documents:
+      - file: 17-pure-2025-hta.pdf
+        title: "Clinical and cost-effectiveness of percutaneous nephrolithotomy, flexible ureterorenoscopy and extracorporeal shockwave lithotripsy for lower pole stones: the PUrE RCTs"
+        version_label: HTA vol 29 no 40
+        publication_date: 2025-08-01
+
+  - slug: wju-residual-fragments
+    name: Residual stone fragments (systematic review)
+    publisher: World Journal of Urology (Springer)
+    source_type: review
+    url: https://doi.org/10.1007/s00345-025-05572-x
+    license_note: "CC BY 4.0. Credit: Çavdar OF et al., World J Urol 2025;43:194, doi:10.1007/s00345-025-05572-x."
+    documents:
+      - file: 18-residual-fragments-2025.pdf
+        title: "Residual stone fragments: systematic review of definitions, diagnostic standards"
+        version_label: "2025"
+        publication_date: 2025-03-28
+
+  - slug: nutrients-siener
+    name: "Siener: nutrition and kidney stone disease"
+    publisher: Nutrients (MDPI)
+    source_type: review
+    url: https://doi.org/10.3390/nu13061917
+    license_note: "CC BY 4.0. Credit: Siener R, Nutrients 2021;13:1917, doi:10.3390/nu13061917."
+    documents:
+      - file: 20-siener-2021-nutrition.pdf
+        title: Nutrition and Kidney Stone Disease
+        version_label: "2021"
+        publication_date: 2021-06-03
+
+  - slug: bmc-diet-meta-analysis
+    name: Diet and lifestyle for primary prevention (meta-analysis)
+    publisher: BMC Nephrology (BioMed Central)
+    source_type: review
+    url: https://doi.org/10.1186/s12882-020-01925-3
+    license_note: "CC BY 4.0. Credit: Lin BB et al., BMC Nephrol 2020;21:267, doi:10.1186/s12882-020-01925-3."
+    documents:
+      - file: 22-lin-2020-diet-meta-analysis.pdf
+        title: "Dietary and lifestyle factors for primary prevention of nephrolithiasis: a systematic review and meta-analysis"
+        version_label: "2020"
+        publication_date: 2020-07-11
+
+  - slug: gms-infection-stones
+    name: Infection-induced urinary stones (handbook chapter)
+    publisher: German Medical Science (GMS) / PUBLISSO
+    source_type: review
+    url: https://doi.org/10.5680/lhuii000017
+    license_note: "CC BY 4.0. Credit: Strohmaier WL, Infection induced urinary stones, in Urogenital Infections and Inflammations, GMS 2018, doi:10.5680/lhuii000017."
+    documents:
+      - file: 24-infection-stones-2018.pdf
+        title: Infection induced urinary stones
+        version_label: "2018"
+        publication_date: 2018-02-27
+
+  - slug: kidney-medicine-calcium-phosphate
+    name: Calcium phosphate nephrolithiasis (review)
+    publisher: Kidney Medicine (National Kidney Foundation)
+    source_type: review
+    url: https://doi.org/10.1016/j.xkme.2026.101301
+    license_note: "CC BY-NC-ND 4.0. Credit: Tsai P, Maalouf NM, Kidney Med 2026;8(4):101301, doi:10.1016/j.xkme.2026.101301. Non-commercial; quote excerpts word for word."
+    documents:
+      - file: 26-calcium-phosphate-2026.pdf
+        title: "Calcium Phosphate Nephrolithiasis: A Comprehensive Review"
+        version_label: "2026"
+        publication_date: 2026-02-01
+
+  - slug: tap-cystinuria
+    name: Cystinuria overview
+    publisher: Turkish Archives of Pediatrics
+    source_type: review
+    url: https://doi.org/10.5152/TurkArchPediatr.2022.22105
+    license_note: "CC BY-NC 4.0. Credit: Sadiq S, Cil O, Turk Arch Pediatr 2022;57(4):377-84, doi:10.5152/TurkArchPediatr.2022.22105. Non-commercial."
+    documents:
+      - file: 27-cystinuria-2022.pdf
+        title: "Cystinuria: An Overview of Diagnosis and Medical Management"
+        version_label: "2022"
+        publication_date: 2022-07-07
+
+  - slug: cur-genetic-testing
+    name: Genetic testing in kidney stone disease
+    publisher: Current Urology Reports (Springer)
+    source_type: review
+    url: https://doi.org/10.1007/s11934-024-01225-5
+    license_note: "CC BY 4.0. Credit: Geraghty R et al., Curr Urol Rep 2024;25:311-323, doi:10.1007/s11934-024-01225-5."
+    documents:
+      - file: 28-genetic-testing-2024.pdf
+        title: "Role of Genetic Testing in Kidney Stone Disease: A Narrative Review"
+        version_label: "2024"
+        publication_date: 2024-08-03
+
+  - slug: curr-urol-pregnancy
+    name: Urolithiasis in pregnancy
+    publisher: Current Urology (Wolters Kluwer)
+    source_type: review
+    url: https://doi.org/10.1097/CU9.0000000000000181
+    license_note: "CC BY-NC-ND 4.0. Credit: Chan K et al., Curr Urol 2023;17(1):1-6, doi:10.1097/CU9.0000000000000181. Non-commercial; quote excerpts word for word."
+    documents:
+      - file: 29-pregnancy-2023.pdf
+        title: Management of urolithiasis in pregnancy
+        version_label: "2023"
+        publication_date: 2023-02-16
+
+  # --- Patient information ---
+  - slug: niddk-kidney-stones
+    name: NIDDK health information on kidney stones
+    publisher: National Institute of Diabetes and Digestive and Kidney Diseases (NIH)
+    source_type: patient_info
+    url: https://www.niddk.nih.gov/health-information/urologic-diseases
+    license_note: "US government content, free of copyright. Credit NIDDK as the source; remove NIDDK/NIH logos if edited; no implied endorsement."
+    documents:
+      - file: 31-niddk-children.pdf
+        title: Kidney Stones in Children
+        version_label: last reviewed May 2017
+        publication_date: 2017-05-01
+      - file: 34-niddk-adults.pdf
+        title: Kidney Stones
+        version_label: last reviewed Sep 2016
+        publication_date: 2016-09-01
+
+  - slug: ahs-nutrition
+    name: Alberta Health Services nutrition handout
+    publisher: Alberta Health Services, Nutrition Services
+    source_type: patient_info
+    url: https://www.albertahealthservices.ca
+    license_note: "CC BY-NC-SA 4.0. Credit: © 2025 Alberta Health Services, Nutrition Services, 404301-NFS (Aug 2025). Non-commercial; adaptations shared under the same licence; AHS logos excluded."
+    documents:
+      - file: 33-ahs-2025-diet.pdf
+        title: Kidney Stones and Your Diet
+        version_label: 404301-NFS
+        publication_date: 2025-08-01
+
+  - slug: nhs-website
+    name: NHS website
+    publisher: NHS England (Crown copyright)
+    source_type: patient_info
+    url: https://www.nhs.uk/conditions/kidney-stones/
+    license_note: "Open Government Licence v3.0. Chunked and reworded text counts as adapted, so credit as: Contains public sector information licensed under the Open Government Licence v3.0. Copied from the NHS website on 2 Nov 2026."
+    documents:
+      - file: 35-nhs-kidney-stones.pdf
+        title: Kidney stones
+        version_label: last reviewed 17 Sep 2026
+        publication_date: 2026-09-17
+
+  - slug: medlineplus
+    name: MedlinePlus
+    publisher: US National Library of Medicine (NIH)
+    source_type: patient_info
+    url: https://medlineplus.gov/lab-tests/kidney-stone-analysis/
+    license_note: "Public domain (US federal work); copyrighted images excluded. Credit: MedlinePlus, National Library of Medicine."
+    documents:
+      - file: 36-medlineplus-stone-analysis.pdf
+        title: Kidney Stone Analysis
+        version_label: last updated 22 May 2025
+        publication_date: 2025-05-22

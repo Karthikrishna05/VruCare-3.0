@@ -76,7 +76,7 @@ def test_embedding_of_the_wrong_size_is_rejected(document):
         )
 
 
-def test_keyword_index_fills_itsellf_in(document):
+def test_keyword_index_fills_itself_in(document):
     chunk = make_chunk(document, 0, text="Kidney stones are hard deposits.")
     chunk.refresh_from_db()
     assert "stone" in chunk.tsv

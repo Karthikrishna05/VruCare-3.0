@@ -1,0 +1,11 @@
+chunking:
+  size: 1050
+  overlap: 250
+  splitter: recursive
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  device: cpu
+retrieval:
+  dense: {enabled: true, top_k: 25}
+  sparse: {enabled: true, top_k: 25}
+  fusion: {method: rrf, rrf_k: 60, final_k: 5}
