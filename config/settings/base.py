@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     "apps.chat",
     "apps.evaluation",
     "apps.agents",
+    "apps.retrieval",
 ]
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
